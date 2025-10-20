@@ -1,0 +1,61 @@
+body{
+    background-color: black ;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation: change-color 0.5s infinite alternate linear;
+
+
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius:40px ;
+    background-color: black;
+}
+strong{
+    border-radius: 20px;
+}
+h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: black;
+
+}
+h3{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+strong{
+    color: white;
+}
+button{
+    background-color:tomato;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+@keyframes change-color {
+  25% { background: purple; }
+  45% { background: darkblue; }
+  75% { background: black; }
+ 
+ 
+}
+
